@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+}
+input {
+  width: 250px;
+  border-width: 0px;
+  height: 40px;
+  font-size: 24px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 5px;
+  padding: 10px;
+}
+.search {
+  height: 30px;
+  width: 30px;
+}
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  padding: 10px;
+}
+.app-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 780px;
+  flex-wrap: wrap;
+}
+h1 {
+  font-family: Bree Serif;
+  font-size: 20px;
+}
+button {
+  border-width: 0px;
+  cursor: pointer;
+}
